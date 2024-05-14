@@ -1,4 +1,4 @@
-package model;
+package model.theater;
 
 public class TicketSeller {
     private TicketOffice ticketOffice;
@@ -8,7 +8,7 @@ public class TicketSeller {
     }
 
     public void sellTo(Audience audience) {
-        ticketOffice.plusAmount(audience.buy(ticketOffice.getTicket()));
+        ticketOffice.sellTicketTo(audience);
 
     }
 }

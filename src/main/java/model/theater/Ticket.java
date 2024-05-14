@@ -1,4 +1,4 @@
-package model;
+package model.theater;
 
 public class Ticket {
     private Long fee;

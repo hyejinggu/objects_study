@@ -1,4 +1,4 @@
-package model;
+package model.theater;
 
 import java.time.LocalDateTime;
 
